@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Bootcamp</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles-flag.css">
+    <link rel="stylesheet" href="css/styles-easy.css">
+    <link rel="stylesheet" href="css/styles-medium.css">
+    <link rel="stylesheet" href="css/styles-hard.css">
+    <link rel="stylesheet" href="css/styles-flexbox.css">
+    <link rel="stylesheet" href="css/styles-pager.css">
+    <link rel="stylesheet" href="css/styles-profilecard.css">
+    <link rel="stylesheet" href="css/styles-spelkort.css">
+    <link rel="stylesheet" href="css/styles-profil.css">
+    <link rel="stylesheet" href="css/styles-landcard.css">
+</head>
+<body>
+    <header>
+        <h2>
+            Flexbox Bootcamp
+        </h2>
+    </header>
+    <nav>
+        <li class="nav">
+            <a href="#flag">Japans flagga</a>
+        </li>
+        <li class="nav">
+            <a href="#easyMenu">Menu Easy</a>
+        </li>
+        <li class="nav">
+            <a href="#mediumMenu" class="nav">Menu Medium</a>
+        </li>
+        <li class="nav">
+            <a href="#hardMenu" class="nav">Menu Hard</a>
+        </li>
+        <li class="nav">
+            <a href="#flexbox" class="nav">Flexbox Fibonacci</a>
+        </li>
+        <li class="nav">
+            <a href="#pagerCard" class="nav">Kort med pager</a>
+        </li>
+        <li class="nav">
+            <a href="#profileCard" class="nav">Profilkort</a>
+        </li>
+        <li class="nav">
+            <a href="#gameCard" class="nav">Spelkort</a>
+        </li>
+        <li class="nav">
+            <a href="#productProfile" class="nav">Produktkomponent profilläge</a>
+        </li>
+        <li class="nav">
+            <a href="#productLand" class="nav">Produktkomponent landskapsläge</a>
+        </li>
+    </nav>
+    <article class="wrapper">
+        <!-- Japans flagga -->
+        <section class="sec" id="flag">
+            <div class="flag__background">
+                <div class="flag__circle">
+                </div>
+            </div>
+            <div class="controllers">
+                <a href="#easyMenu">
+                    &#10549;
+                </a>
+            </div>
+        </section>
+
+
+        <!-- Menu Easy -->
+        <section class="sec" id="easyMenu">
+            <div class="easymenu__container">
+                <a href="#" class="easymenu__active">Option 1</a>
+                <a href="#">Option 2</a>
+                <a href="#">Option 3</a>
+                <a href="#">Option 4</a>
+            </div>
+            <div class="controllers">
+                <a href="#flag" class="controllers-light">
+                    &#10548;
+                </a>
+                <a href="#mediumMenu" class="controllers-light">
+                    &#10549;
+                </a>
+            </div>
+        </section>
+
+
+        <!-- Menu Medium -->
+        <section class="sec" id="mediumMenu">
+            <div class="mediummenu__container">
+                <img src="images/original.png" alt="zocom" />
+                <div class="mediummenu__nav">
+                    <a href="#">Option 1</a>
+                    <a href="#">Option 2</a>
+                    <a href="#">Option 3</a>
+                    <a href="#">Option 4</a>
+                </div>
+            </div>
+            <div class="controllers">
+                <a href="#easyMenu">
+                    &#10548;
+                </a>
+                <a href="#hardMenu">
+                    &#10549;
+                </a>
+            </div>
+        </section>
+
+
+        <!-- Menu Hard -->
+        <section class="sec" id="hardMenu">
+            <div class="hardmenu__container">
+                <img src="images/original.png" alt="zocom" />
+                <div class="hardmenu__nav">
+                    <a href="#">Option 1</a>
+                    <a href="#">Option 2</a>
+                    <a href="#">Option 3</a>
+                    <a href="#">Option 4</a>
+                </div>
+                <button>login</button>
+            </div>
+            <div class="controllers">
+                <a href="#mediumMenu" class="controllers-light">
+                    &#10548;
+                </a>
+                <a href="#flexbox" class="controllers-light">
+                    &#10549;
+                </a>
+            </div>
+        </section>
+
+
+        <!-- Flexbox Fibonacci -->
+        <section class="sec" id="flexbox">
+            <div class="flexboxOne">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div class="flexboxTwo">
+                <div>10</div>
+                <div>9</div>
+                <div>8</div>
+                <div>7</div>
+                <div>6</div>
+                <div>5</div>
+                <div>4</div>
+                <div>3</div>
+                <div>2</div>
+                <div>1</div>
+            </div>
+            <div class="controllers">
+                <a href="#hardMenu">
+                    &#10548;
+                </a>
+                <a href="#pagerCard">
+                    &#10549;
+                </a>
+            </div>
+        </section>
+
+
+        <!-- Kort med pager -->
+        <section class="sec" id="pagerCard">
+            <div class="pagercard__container">
+                <h3>
+                    "if debugging is the process of removing software bugs, then programming must be the process of putting them in."
+                </h3>
+                <p>
+                    Edsger Dijkstra
+                </p>
+                <div class="pagercard__dots">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+            <div class="controllers">
+                <a href="#flexbox" class="controllers-light">
+                    &#10548;
+                </a>
+                <a href="#profileCard" class="controllers-light">
+                    &#10549;
+                </a>
+            </div>
+        </section>
+
+
+        <!-- Profilkort -->
+        <section class="sec" id="profileCard">
+            <div class="profilecard__container">
+                <div class="profilecard__close">
+                    <div></div>
+                    <div></div>
+                </div>
+                <div class="profilecard__content">
+                    <img src="./images/GoodGuyGreg.jpg" alt="profile" />
+                    <h2>
+                        Greg Goodguysson
+                    </h2>
+                    <p>
+                        Kick Ass Guy
+                    </p>
+                </div>
+                <button>Omg, tell me more!</button>
+            </div>
+            <div class="controllers">
+                <a href="#pagerCard">
+                    &#10548;
+                </a>
+                <a href="#gameCard">
+                    &#10549;
+                </a>
+            </div>
+        </section>
+
+
+        <!-- Spelkort -->
+        <section class="sec" id="gameCard">
+            <div class="gamecard__container">
+                <div class="gamecard__smal gkupper">
+                    <span>
+                        &hearts;
+                    </span>
+                    <p>
+                        9
+                    </p>
+                </div>
+                <h2>
+                    &hearts;
+                </h2>
+                <h2>
+                    &hearts;
+                </h2>
+                <h2>
+                    &hearts;
+                </h2>
+                <h2>
+                    &hearts;
+                </h2>
+
+                <h1>
+                    &hearts;
+                </h1>
+
+                <h2>
+                    &hearts;
+                </h2>
+                <h2>
+                    &hearts;
+                </h2>
+                <h2>
+                    &hearts;
+                </h2>
+                <h2>
+                    &hearts;
+                </h2>
+                <div class="gamecard__smal gkdown">
+                    <p>
+                        9   
+                    </p>
+                    <span>
+                        &hearts;
+                    </span>
+                </div>
+            </div>
+            <div class="controllers">
+                <a href="#profileCard" class="controllers-light">
+                    &#10548;
+                </a>
+                <a href="#productProfile" class="controllers-light">
+                    &#10549;
+                </a>
+            </div>
+        </section>
+
+
+        <!-- Produktkomponent profilläge -->
+        <section class="sec" id="productProfile">
+            <div class="productprofile__container">
+                <img src="./images/skor.jpg" alt="skor" />
+                <div class="productprofile__text">
+                    <h2>
+                        Polo Ralph Lauren
+                    </h2>
+                    <b>
+                        Keaton Pony Lace Unisex
+                    </b>
+                    <p>
+                        It doesent get any hotter then this. Rule the streets with this old and ugly sneakers from Polo.
+                    </p>
+                    <h4>
+                        899sek
+                    </h4>
+                </div>
+            </div>
+            <div class="controllers">
+                <a href="#gameCard">
+                    &#10548;
+                </a>
+                <a href="#productLand">
+                    &#10549;
+                </a>
+            </div>
+        </section>
+
+
+        <!-- Produktkomponent landskapsläge -->
+        <section class="sec" id="productLand">
+            <div class="productland__container">
+                <div class="productland__image">
+                    <img src="./images/skor.jpg" alt="skorna" />
+                    <h3>
+                        899sek
+                    </h3>
+                </div>
+                <div class="productland__text">
+                    <div class="productland__text-top">
+                        <h2>
+                            Polo Ralph Lauren
+                        </h2>
+                        <b>
+                            Keaton Pony Lace Unisex
+                        </b>
+                        <p>
+                            It doesent get any hotter then this. Rule the streets with this old and ugly sneakers from Polo.
+                        </p>  
+                    </div>
+                    <div class="productland__text-bottom">
+                        <button>Take my money!</button>
+                    </div>
+                </div>
+            </div>
+            <div class="controllers">
+                <a href="#productProfile" class="controllers-light">
+                    &#10548;
+                </a>
+            </div>
+        </section>
+    </article>
+
+
+
+    <script>
+        let section = document.querySelectorAll('section');
+        let lists = document.querySelectorAll('.nav');
+        function activeLink(li) {
+            lists.forEach((item) => item.classList.remove('active'));
+            li.classList.add('active');
+        }
+        lists.forEach((item) =>
+            item.addEventListener('click', function(){
+                activeLink(this);
+            }));
+
+        window.onscroll = () => {
+            section.forEach(sec => {
+                let top = window.scrollY;
+                let offset = sec.offsetTop;
+                let height = sec.offsetHeight;
+                let id = sec.getAttribute('id');
+
+                if (top >= offset && top < offset + height) {
+                    const target = document.querySelector(`[href='#${id}']`).parentElement;
+                    activeLink(target);
+                }
+            })
+        };
+    </script>
+</body>
+</html>

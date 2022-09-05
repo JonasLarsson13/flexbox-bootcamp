@@ -1,0 +1,39 @@
+.hardmenu__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 900px;
+    height: 40px;
+    background: white;
+}
+
+.hardmenu__container img {
+    max-height: 60%;
+    margin-left: 1rem;
+}
+
+.hardmenu__container a {
+    height: 100%;
+    padding: 0 1rem;
+    color: rgb(119, 119, 119);
+    font-size: 0.9rem;
+    text-decoration: none;
+}
+
+.hardmenu__container button {
+    margin-right: 1rem;
+    border: 1px solid rgb(144, 144, 144);
+    color: rgb(119, 119, 119);
+    padding: 0.2rem 0.8rem;
+    background: transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.hardmenu__container button:hover {
+    background: rgb(0, 58, 119);
+    color: white;
+    border: 1px solid rgb(8, 83, 163);
+}

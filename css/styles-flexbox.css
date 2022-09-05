@@ -1,0 +1,119 @@
+#flexbox {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+
+.flexboxOne {
+    display: flex;
+    width: 1100px;
+    height: 100px;
+    background: rgb(0, 140, 255);
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.7rem;
+    border: none;
+    counter: i;
+}
+
+.flexboxOne div {
+    padding: 3px 5px;
+    counter-increment: i;
+}
+.flexboxOne div::after {
+    content: counter(i);
+}
+
+.flexboxOne > div:first-child {
+    flex: 1;
+    background: black;
+}
+.flexboxOne > div:nth-child(2) {
+    flex: 2;
+    background: rgba(0, 0, 0, 0.9);
+}
+.flexboxOne > div:nth-child(3) {
+    flex: 3;
+    background: rgba(0, 0, 0, 0.8);
+}
+.flexboxOne > div:nth-child(4) {
+    flex: 4;
+    background: rgba(0, 0, 0, 0.7);
+}
+.flexboxOne > div:nth-child(5) {
+    flex: 5;
+    background: rgba(0, 0, 0, 0.6);
+}
+.flexboxOne > div:nth-child(6) {
+    flex: 6;
+    background: rgba(0, 0, 0, 0.5);
+}
+.flexboxOne > div:nth-child(7) {
+    flex: 7;
+    background: rgba(0, 0, 0, 0.4);
+}
+.flexboxOne > div:nth-child(8) {
+    flex: 8;
+    background: rgba(0, 0, 0, 0.3);
+}
+.flexboxOne > div:nth-child(9) {
+    flex: 9;
+    background: rgba(0, 0, 0, 0.2);
+}
+.flexboxOne > div:nth-child(10) {
+    flex: 10;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.flexboxTwo {
+    display: flex;
+    width: 1100px;
+    height: 100px;
+    background: rgb(245, 31, 31);
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 0.7rem;
+}
+
+.flexboxTwo div {
+    padding: 3px 5px;
+}
+
+.flexboxTwo > div:first-child {
+    flex: 10;
+    background: rgba(255, 255, 255, 0.1);
+}
+.flexboxTwo > div:nth-child(2) {
+    flex: 9;
+    background: rgba(255, 255, 255, 0.2);
+}
+.flexboxTwo > div:nth-child(3) {
+    flex: 8;
+    background: rgba(255, 255, 255, 0.3);
+}
+.flexboxTwo > div:nth-child(4) {
+    flex: 7;
+    background: rgba(255, 255, 255, 0.4);
+}
+.flexboxTwo > div:nth-child(5) {
+    flex: 6;
+    background: rgba(255, 255, 255, 0.5);
+}
+.flexboxTwo > div:nth-child(6) {
+    flex: 5;
+    background: rgba(255, 255, 255, 0.6);
+}
+.flexboxTwo > div:nth-child(7) {
+    flex: 4;
+    background: rgba(255, 255, 255, 0.7);
+}
+.flexboxTwo > div:nth-child(8) {
+    flex: 3;
+    background: rgba(255, 255, 255, 0.8);
+}
+.flexboxTwo > div:nth-child(9) {
+    flex: 2;
+    background: rgba(255, 255, 255, 0.9);
+}
+.flexboxTwo > div:nth-child(10) {
+    flex: 1;
+    background: rgb(255, 255, 255);
+}

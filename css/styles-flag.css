@@ -1,0 +1,16 @@
+.flag__background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 360px;
+    background: white;
+    box-shadow: 0 0 14px rgba(0, 0, 0, 0.08);
+}
+
+.flag__circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: rgb(227, 37, 37);
+}

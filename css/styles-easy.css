@@ -1,0 +1,21 @@
+.easymenu__container {
+    display: flex;
+    width: 900px;
+}
+.easymenu__container a {
+    width: 25%;
+    text-align: center;
+    padding: 0.8rem 0;
+    color: rgb(37, 37, 37);
+    text-decoration: none;
+    background: rgb(240, 240, 240);
+    font-size: 0.9rem;
+    transition: all 0.2s ease-in-out;
+}
+.easymenu__container a:hover {
+    background: rgb(206, 226, 248);
+}
+.easymenu__active {
+    background: rgb(1, 84, 172) !important;
+    color: white !important;
+}

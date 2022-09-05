@@ -1,0 +1,40 @@
+.pagercard__container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 280px;
+    height: 400px;
+    background: white;
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+}
+
+.pagercard__container h3 {
+    padding: 1rem;
+    line-height: 1.2;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 1rem;
+}
+.pagercard__container p {
+    font-size: 0.8rem;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.pagercard__dots {
+    position: absolute;
+    bottom: 1rem;
+    display: flex;
+    gap: 0.5rem;
+}
+.pagercard__dots div {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: rgba(45, 45, 45, 0.3);
+}
+.pagercard__dots div:first-child {
+    background: rgba(45, 45, 45, 0.8);
+}

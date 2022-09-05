@@ -1,0 +1,21 @@
+.mediummenu__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 900px;
+    height: 40px;
+    background: white;
+}
+
+.mediummenu__container img {
+    max-height: 60%;
+    margin-left: 1rem;
+}
+
+.mediummenu__container a {
+    height: 100%;
+    padding: 0 1rem;
+    color: rgb(119, 119, 119);
+    font-size: 0.9rem;
+    text-decoration: none;
+}
